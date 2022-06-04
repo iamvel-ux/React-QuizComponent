@@ -7,7 +7,7 @@ class Quiz extends React.Component{
         this.state = {quiz_position:1}
     }
     render(){
-        return <div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}</div>
+        return <div className="QuizQuestion">Quiz</div>
     }
 }
 
